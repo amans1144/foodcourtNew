@@ -5,7 +5,7 @@ const HomeScreen = ({ navigation }) => {
   // Add your homeScreen code here  ----------------*************
   return (
     <View>
-      <Text style={styles.text}>Home... screen</Text>
+      <Text style={styles.text}>Home screen</Text>
       <Button
         onPress={() => navigation.navigate("SecondScreen")}
         title="Go to second screen"
